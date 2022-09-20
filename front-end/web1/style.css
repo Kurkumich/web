@@ -6,7 +6,7 @@
 header{
 	width: 100%;
     margin:auto;
-    background: #D8E3AB;
+    background: #FFC0CB;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
     height: auto;
@@ -30,7 +30,7 @@ header{
 footer{
     width: 100%;
     margin-top:5px;
-    background: #D8E3AB;
+    background: #FFC0CB;
     height: 70px;
     text-align: center;
 }
