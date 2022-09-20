@@ -5,13 +5,21 @@
 	<meta charset="utf-8">
 	<title>Список</title>
 </head>
-	<header>
+<div class="wrap">
+<header>
 	<div class="logo">
 		<img src="logo.png">
 		<h1>НУМЕРОВАННЫЙ СПИСОК ССЫЛОК</h1>
 	</div>
 </header>
+</div>
 <body>
+	<nav >
+				<div class="menu"><a href=#zad1 class="current">ЗАДАНИЕ 1</a> <a href=#form>ФОРМА</a> <a href=#table>ТАБЛИЦА</a></div>
+		</nav>
+	<div class="content">
+		
+	<p></p>
 	<p><b>Нумерованный список гиперссылок:</b></p>
 	<ol>
 		<li><a href="http://mail.ru/">MailRu</a></li>
@@ -111,5 +119,38 @@
 
 	    <input type="submit" value="Отправить">
 	</form>
+						  	<h1 id="table">Таблица</h1>
+                <table border = "1">
+                    <tr>
+                        <th>Колонка 1</th>
+                        <th>Колонка 2</th>
+                        <th>Колонка 3</th>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                        <td rowspan="2">Ячейка 23 и 33</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                    </tr>
+                </table>
+</div>
+<div>
+<footer>Игорь Кузнецов (c)  2022</footer>
+</div>
 </body>
 </html>
