@@ -1,176 +1,156 @@
 <!DOCTYPE html>
- <html lang="ru">
-   <head>
-    <title> Буква Ю </title>
-    <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-     <header>
-      <div id="line">
-       <a>Буква Ю</a>
-        <div id="logo">
-         <img src="https://i.ibb.co/Wxq7Vyn/image.png" Width="100" Height="100" alt="name"/>
-       </div>
-      </div>
-    </header>
-    <nav>
-     <div class="menu">
-	     <ul>
-	      <p><a href="index.html" title="Главная информация о компании">Главная</a></p>
-	      <p><a href="#Гиперссылки" title="Нумированный список гиперссылок">Гиперссылки</a></p>
-       	      <p><a href ="#Таблица" title="Таблица с контентом">Таблица</a></p>
-	      <p><a href ="#Форма" title="Перейти к заполнению формы">Форма</a></p>
-	     </ul>
-     </div>
-    </nav>
-    <nav id="Гиперссылки">
-	    <div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;">
-		    <h4>Гиперссылки:</h4>
-	    </div>
-	   </nav>
-      <div class="silki">
-        <ol> 
-         <li><a href="http://example.com/">Задание 1</a></li>
-         <li><a href="https://example.com/">Задание 2</a></li>
-         <li><a href="ftp://example.com/Temp/file.txt">Задание 3</a></li>
-         <li><a href="ftp://usser:pussword@example.com/Temp/file.txt">Задание 4</a></li>
-         <li><a href="https://example.com#Почта">Задание 5</a></li>
-         <li><a href="#Почта">Задание 6</a></li>
-         <li><a href="https://example.com?product=phone&color=black">Задание 7</a></li>
-         <li>
-           <ul class="menu1">
-             <li><a href="https://example.com/menu/o_nas/" title="Главная информация о компании">О компании</a></li>
-             <li><a href ="https://example.com/menu/phone/" title="Контактиные данные"> Телефон</a></li>
-           </ul>
-         </li>
-         <li><a>https://example.com</a></li>
-         <li><a href=" ">Задание 10</a></li>
-         <li><a href="https://example.com/" rel="nofollow">Задание 11</a></li>
-         <li><!--noindex--><a href="https://example.com">Задание 12</a><!--/noindex--></li>
-         <li>Задание делается по <a href="https://example.com">образцу</a></li>
-         <li><a href="http://example.com/"><img src="https://im.wampi.ru/2022/09/11/image.jpg" Width="100" Height="75" alt="Flowers"> </a></li>
-         <li><map name="m1">
-           <area shape="rect" coords="150,10,260,140" href="https://example.com/" alt="Red square">
-           <area shape="circle" coords="75,75,60" href="http://example.com/" alt="Green circle">
-           </map>
-           <img usemap="#m1" src="https://i.ibb.co/LN7bFGM/2640804.jpg" Width="300" Height="150" alt="Фигуры"></li>
-         <li><a href="index.html">Задание 16</a></li>
-         <li><a href="about">Задание 17</a></li>
-         <li><a href="../index.html">Задание 18</a></li>
-         <li><a href="../../index.html">Задание 19</a></li>
-         <li><a href="/">Задание 20</a></li>
-         <li><a href="/about">Задание 21</a></li>
-        </ol>
-       </div>
-	    <nav id="Таблица">
-		    <div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;">
-			    <h4>Таблица:</h4>
-		    </div>
-	    </nav>
-	<div class="table">
-        <table>
-         <caption>Участники опроса</caption>
-         <tr>
-          <th>Имя</th>
-          <th>Возраст</th>
-          <th>Сверхспособности</th>
-         </tr>
-         <tr>
-          <td colspan="2" style="text-align: center">Молод душой</td><td>Становиться невидимым</td>
-         </tr>
-         <tr class="even">
-          <td>Анна</td><td rowspan="2" style="text-align: center">17</td><td>Чтение мысли</td>
-         </tr>
-         <tr>
-          <td>Ольга</td><td>Исцелять</td>
-         </tr>
-         <tr class="even">
-          <td>Алиса</td><td>10</td><td>Уметь летать</td>
-         </tr>
-         <tr>
-          <td>Павел</td><td>15</td><td>Физическая мощь</td>
-         </tr>
-        </table>
-       </div>
-            <nav id="Форма">
-		 <div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;">
-			    <h4>Форма:</h4>
-		 </div>
-	    </nav>
-      <div class="forma">
-        <form action="URL_отправки_данных" method="POST">
-         <label>
-         Имя:
-         <br />
-         <input name="name" value="Введите имя" />
-       </label>
-       <br />
-       <label>
-         Почта:
-       <br />
-         <input name="email" value="Введите вашу почту" type="email" />
-       </label>
-       <br />
-       <label>
-         Дата рождения:
-         <br />
-         <input name="date" value="2022-09-01" type="date" />
-       </label>
-       <br />
-         Пол:
-         <br />
-         <label>
-         <input type="radio" checked="checked" name="sex" value="Значение1" />М
-         </label>
-         <label>
-         <input type="radio" name="sex" value="Значение2" />Ж
-         </label>
-         <br />
-       Кол-во конечностей:
-       <br />
-       <label>
-         <input type="radio" checked="checked" name="legs" value="Значение1" />1
-       </label>
-       <label>
-         <input type="radio" name="legs" value="Значение2" />2
-       </label>
-       <label>
-         <input type="radio" name="legs" value="Значение3" />3
-       </label>
-       <label>
-         <input type="radio" name="legs" value="Значение4" />4
-       </label>
-       <label>
-         <input type="radio" name="legs" value="Значение5" />5
-      </label>
-       <br />
-       <label>
-       Сверхспособности:
-       <br />
-       <select name="powers[]" multiple="multiple">
-         <option value="Значение1">Бессмертие</option>
-         <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
-         <option value="Значение3" selected="selected">Левитация</option>
-       </select>
-       </label>
-       <br />
-       <label>
-       Биография:
-       <br />
-         <textarea name="bio">Придумайте свою биографию...</textarea>
-       </label>
-       <br />
-       <br />
-       <label>
-         С контрактом ознакомлен(а)<input type="checkbox" name="check-1" />
-       </label>
-       <br />
-	Отправить форму: 
-         <input type="submit" value="Отправить" />
-     </form>
-    </div>
-     <footer class="footer" id="foot">
-      <h5> © Быкова Полина 2022 </h5>
-    </footer>
-  </body>
-  </html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Список</title>
+</head>
+<div class="wrap">
+<header>
+	<div class="logo">
+		<img src="гербер.png">
+		<font color="#9932CC"><h1>Index.html</h1></font>
+	</div>
+</header>
+</div>
+<body>
+	<nav >
+				<div class="menu"><a href=#hrefs class="current">Гиперссылки</a> <a href=#forma>ФОРМА</a> <a href=#tablica>ТАБЛИЦА</a></div>
+		</nav>
+	<div class="content">
+		
+	<p></p>
+	<ol >
+		  <li><a href="http://mail.ru/" id="hrefs">MailRu</a></li>
+	      <li><a href="https://ok.ru/">Одноклассники</a></li>
+	      <li><a href="ftp://example.com/Temp/file.txt">Без авторизации</a></li>
+	      <li><a href="ftp://usser:pussword@example.com/Temp/file.txt">С авторизацией</a></li>
+	      <li><a href="http://htmlbook.ru/content/ssylki-vnutri-stranitsy#top">Ссылка на часть страницы другого сайта</a></li>
+	      <li><a href="#top">Ссылка на начало этой страницы</a></li>
+	      <li><a href="https://re-store.ru/?utm_medium=cpc&utm_term=%7Bad_id%7D">Ссылка с двумя параметрами</a></li>
+	      <li><a href="#anchor">Начало страницы</a>
+		  <a href="#">Главная</a></li>
+	      <li><a https://yandex.ru/support/direct/statistics/url-tags.html?lang=ru>Ссылка без href</a></li>
+	      <li><a href="">Ссылка с пустым href</a></li>
+	      <li><a href="https://test.com" rel="nofollow">Ссылка по которой запрещен переход поисковикам; </a></li>
+	      <li><a href="https://test.com" rel="noindex">Ссылка запрещенная для индексации поисковиками</a></li>
+	      <li><h3>Пример абзаца для контекстной ссылки</h3>
+	        <p>
+	           Алхи́мия (лат. alchimia, alchymia; др.-греч. khumeía[1]) — древняя область <a href="https://ru.wikipedia.org/wiki/Натурфилософия">натурфилософии</a>, сформировавшаяся в лоне герметической традиции. Это философское протонаучное направление исторически практиковалось в Китае, Индии, средневековом исламском мире и Европе, западное направление алхимии получило особое развитие в Позднее средневековье и Новое время. Европейская алхимия впервые засвидетельствована в ряде псевдоэпиграфических текстов, написанных в римском Египте в течение первых нескольких веков нашей эры.
+	        </p>
+	      </li>
+	      <li><a href="https://kot-pes.com/smeshnye-foto-obezyan/"><img src="RIBA.jpg" width="500" height="500" alt="RIBA"></a></li>
+		  <li>
+	        <img src="vorobei.jpg" width="400" height="400" usemap="#navigation" alt="map">
+	        <map name="navigation">
+	          <area shape="circle"
+	          coords="212,219,20"
+	          href="https://www.php.net/manual/ru/book.json.php"
+	          alt="circle">
+	          <area shape="rect"
+	          coords="30,30,151,124
+	          href="https://info-comp.ru/database-normalization"
+	          alt="rectangle">
+	        </map>
+	      </li>
+	      <li><a href="demo.html">Относительная ссылка на файл в том же каталоге</a></li>
+	      <li><a href="about/norma2.html">Относительная ссылка на файл в каталоге about</a></li>
+	      <li><a href="../norma2.html">Относительная ссылка на файл в каталоге, выше нынешнего на один</a></li>
+	      <li><a href="../../norma2.html">Относительная ссылка на файл двумя каталогами выше</a></li>
+	      <li><a href="/">Сокращенная ссылка на главную</a></li>
+	      <li><a href="/about">Сокращенная на внутреннюю</a></li>
+    </ol>
+
+	<h1 id="tablica">Таблица</h1>
+                <table border = "1">
+                    <tr>
+                        <th>Колонка 1</th>
+                        <th>Колонка 2</th>
+                        <th>Колонка 3</th>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                        <td rowspan="2">Ячейка 23 и 33</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                    </tr>
+                </table>
+	<form id="forma" action="/" method="POST">
+
+	    <label>
+	        Введите имя<br>
+	        <input name="field-name-1" value="Gerber">
+	    </label><br>
+
+	    <label>
+	        Введите email:<br>
+	        <input  name="field-email" value="test@example.com" type="email">
+	    </label><br>
+
+	    <label>
+	        Введите дату рождения<br>
+	        <input name="field-date" value="2021-09-08" type="date">
+	    </label><br>
+
+	    Введите пол:<br>
+	    <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1">
+	        Мужской</label><br>
+	    <label><input type="radio" name="radio-group-2" value="Значение2">
+	        Женский</label><br>
+
+	    Выберите кол-во конечностей:<br>
+	    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+	        1</label>
+	    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+	        2</label>
+	    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+	        3</label>
+	    <label><input type="radio" name="radio-group-1" value="Значение4">
+	        4</label>
+	    <label><input type="radio" name="radio-group-1" value="Значениие 5">
+	        Больше 4х</label><br>
+
+	    <label>
+	        Сверхспособности:
+	        <br>
+	        <select name="field-name-4[]" multiple="multiple">
+	            <option value="Значение1">Бессмертие</option>
+	            <option value="Значение2" selected="selected">Левитация</option>
+	            <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+	        </select>
+	    </label><br>
+
+	    <label>
+	        Биография:
+	        <br>
+	        <textarea name="field-name-2" style="margin: 0px; height: 100px; width: 300px;">Напишите что-то о себе</textarea>
+	    </label><br>
+
+	    <label><input type="checkbox" checked="checked" name="check-1">
+	        с контрактом ознакомлен(а)</label><br>
+
+	    <input type="submit" value="Отправить">
+	</form>
+
+</div>
+
+<div>
+<footer>(c) Игорь Кузнецов 2022</footer>
+</div>
+</body>
+</html>
