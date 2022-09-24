@@ -1,0 +1,94 @@
+html,body 
+{
+  background-color: #e2f8d7;
+}
+#line 
+{
+  background-color: #228b22;
+  width: 1920px;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 60px;
+  color: #ffffff;
+}
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
+}
+p
+{
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+  text-align: center;
+} 
+.menu
+{
+  background-color: #f8f8ff;
+  width: 960px;
+  margin: 25px;
+  margin-left:480px;
+  height: 50px;
+}
+.silki
+{
+  background-color: #f8f8ff;
+  width: 960px;
+  margin: 25px;
+  margin-left:480px;
+}
+table 
+{
+  border: 1px solid #228b22;
+  width: 900px;
+  background: #ffff;
+}
+td, th 
+{
+    padding: 3px;
+}
+th 
+{
+  text-align: center;
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+td 
+{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+tr.even 
+{
+  background: #e2f8d7;
+}
+.table
+{
+  background-color: #f8f8ff;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+}
+.forma
+{
+  background-color: #f8f8ff;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+}
+.footer
+{
+  background-color: #228b22;
+  width: 1920px;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 50px;
+  color: #ffffff;
+}
