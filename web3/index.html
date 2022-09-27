@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-ex-animation" id="maincs">
+    <header class="header">
+      <div class="content">
+        <div class="header_title">
+          <div id="logoleft"></div>
+          <div class="header_text">X-Files</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="content">
+      <ul class="menu">
+        <li><a href="#task1">Задание 1</a></li>
+        <li><a href="#table">Таблица</a></li>
+        <li><a href="#forma">Форма</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="container_row">
+        <div class="content">
+          <div class="container_urls">
+            <h1 id="task1">Список гиперссылок</h1>
+            <ol>
+              <li><a href="http://example.com" id="#menu">ссылка 1</a></li>
+              <li><a href="https://example.com">ссылка 2</a></li>
+              <li>
+                <a
+                  href="ftp://public.ftp-servers.example.com/mydirectory/file.zip"
+                  >ссылка 3</a
+                >
+              </li>
+              <li>
+                <a
+                  href="ftp://user001:secretpassword@private.ftp-servers.example.com/mydirectory/file.zip"
+                  >ссылка 4</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://kozinalexandr.github.io/Yolo/#back"
+                  target="_blank"
+                  >ссылка 5</a
+                >
+              </li>
+              <li><a href="#“dolor”">ссылка 6</a></li>
+              <li>
+                <a
+                  href="https://www.example.com?key=Heroes_of_Might__Magic&version=delux"
+                  target="_blank"
+                  >ссылка 7</a
+                >
+              </li>
+              <li>
+                <a href="#task1" title="Первая часть задания"
+                  >Ссылка на начало</a
+                >
+              </li>
+              <li>
+                <a href="#forma" title="Вторая часть задания"
+                  >Ссылка на форму</a
+                >
+              </li>
+              <li><a>ссылка 9</a></li>
+              <li><a href="">ссылка 10</a></li>
+              <li><a href="http://example.com" rel="nofollow">ссылка 11</a></li>
+              <li><a href="http://example.com" rel="noindex">ссылка 12</a></li>
+              <li>
+                <p>
+                  Laugh Tale is the island at the end of the New World which
+                  supposedly holds the treasure
+                  <a href="https://onepiece.fandom.com/wiki/Laugh_Tale"
+                    >One Piece</a
+                  >.
+                </p>
+              </li>
+              <li>
+                <a href="http://example.com" target="_blank"
+                  ><img src="img/image.gif" alt="Example"
+                /></a>
+              </li>
+              <li>
+                <img
+                  src="img/image.gif"
+                  usemap="#figuri"
+                  alt="There are 2 selections of the picture area"
+                />
+                <map name="figuri">
+                  <area
+                    shape="rect"
+                    coords="0,0,110,80"
+                    href="http://yandex.ru"
+                    alt="Квадрат"
+                  />
+                  <area
+                    shape="circle"
+                    coords="150,110,50"
+                    href="http://google.com"
+                    alt="Круг"
+                  />
+                </map>
+              </li>
+              <li><a href="lap.html">ссылка 16</a></li>
+              <li><a href="about/about.html">ссылка 17</a></li>
+              <li><a href="../index.html">ссылка 18</a></li>
+              <li><a href="../../index.html">ссылка 19</a></li>
+              <li><a href="/">ссылка 20</a></li>
+              <li><a href="/about">ссылка 21</a></li>
+            </ol>
+            <p>
+              Sometime during the Void Century, Joy Boy left behind some sort of
+              great treasure on an island located at the very end of the Grand
+              Line. <a id="“dolor”">Gol D. Roger</a> and his crew are the only
+              other people known to have reached this island.
+            </p>
+          </div>
+
+          <div class="container_table">
+            <h1 id="table">Таблица</h1>
+            <table>
+              <tr>
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+              </tr>
+              <tr>
+                <td>Ячейка 11</td>
+                <td>Ячейка 12</td>
+                <td>Ячейка 13</td>
+              </tr>
+              <tr>
+                <td colspan="2">Ячейка 21 объединенная с 22</td>
+                <td rowspan="2">Ячейка 23 и 33</td>
+              </tr>
+              <tr>
+                <td>Ячейка 31</td>
+                <td>Ячейка 32</td>
+              </tr>
+              <tr>
+                <td>Ячейка 41</td>
+                <td>Ячейка 42</td>
+                <td>Ячейка 43</td>
+              </tr>
+              <tr>
+                <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="container_form">
+            <h1 id="forma">Форма</h1>
+            <form action="/" method="POST">
+              <label>
+                Имя<br />
+                <input name="field-name-1" value="Александр" /> </label
+              ><br />
+
+              <label>
+                email:<br />
+                <input
+                  name="field-email"
+                  value="test@example.com"
+                  type="email"
+                /> </label
+              ><br />
+
+              <label>
+                Дата рождения<br />
+                <input
+                  name="field-date"
+                  value="2021-09-08"
+                  type="date"
+                /> </label
+              ><br />
+
+              Пол:<br />
+              <label
+                ><input
+                  type="radio"
+                  checked="checked"
+                  name="radio-group-2"
+                  value="Значение1"
+                />
+                Мужской</label
+              ><br />
+              <label
+                ><input type="radio" name="radio-group-2" value="Значение2" />
+                Женский</label
+              ><br />
+
+              Количество конечностей:<br />
+              <label
+                ><input
+                  type="radio"
+                  checked="checked"
+                  name="radio-group-1"
+                  value="Значение1"
+                />
+                1</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  checked="checked"
+                  name="radio-group-1"
+                  value="Значение2"
+                />
+                2</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  checked="checked"
+                  name="radio-group-1"
+                  value="Значение3"
+                />
+                3</label
+              >
+              <label
+                ><input type="radio" name="radio-group-1" value="Значение4" />
+                4</label
+              ><br />
+
+              <label>
+                Сверхспособности:
+                <br />
+                <select name="field-name-4[]" multiple="multiple">
+                  <option value="Значение1">Бессмертие</option>
+                  <option value="Значение2" selected="selected">
+                    Левитация
+                  </option>
+                  <option value="Значение3" selected="selected">
+                    Прохождение сквозь стены
+                  </option>
+                </select> </label
+              ><br />
+
+              <label>
+                Биография:
+                <br />
+                <textarea
+                  name="field-name-2"
+                  style="margin: 0px; height: 35px; width: 187px"
+                >
+Напишите что-то о себе</textarea
+                ></label
+              ><br />
+
+              <label
+                ><input type="checkbox" checked="checked" name="check-1" /> с
+                контрактом ознакомлен (а)</label
+              ><br />
+              <input type="submit" value="Отправить" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content">
+        <div class="footer_row">
+          <div class="footer_text">Вяткин Никита 2021</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
