@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url(img/background.jpg);
+  background-image: url(img/kWhite-Background.jpg);
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 13s ease infinite;
   height: 100%;
