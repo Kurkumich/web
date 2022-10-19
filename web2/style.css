@@ -1,0 +1,148 @@
+html,body 
+{
+  background-color: #E6E6FA;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height:100%;
+    width:100%;
+    font-size:100%;
+    line-height:1;
+    font-size: 14px;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+/*----------------------------------------------------------------------------------------------------*/
+body{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color:inherit;
+}
+.wrapper{
+    min-height:100%;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+}
+._container{
+    width:100%; 
+    margin: 0px auto;   
+}
+.header{
+    order:-3;
+}
+.menu{
+    order:-2;
+}
+.dz_links{
+    order:-1;
+}
+.form{
+    order:0;
+}
+.table{
+    order:1;
+}
+.footer{
+    order:2;
+}
+@media screen and (min-width:700px){
+    ._container{
+        width:960px;
+        margin: 0px auto;
+    }
+    .header{
+        order:-3;
+    }
+    .menu{
+        order:-2;
+    }
+    .dz_links{
+        order:-1;
+    }
+    .form{
+        order:1;
+    }
+    .table{
+        order:0;
+    }
+    .footer{
+        order:2;
+    }
+}
+
+/*--------------ШАПКА-------------------------------------------------------------------------------------------*/
+.logo{
+    float:left;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.logo_title{
+    font-size: 20px;
+    line-height: 116%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+@media screen and (min-width:700px){
+    .logo_title{
+        font-size: 40px;
+        line-height: 116%;
+    }
+}
+.header{
+    background: #FFC0CB;
+}
+/*-------------MENU---------------------------------------------------------------------------------------------------------*/
+.menu{
+    background: #FFC0CB;
+}
+@media screen and (min-width:700px){
+    .menu_list{
+        display: flex;
+        flex-wrap: nowrap;
+        margin:0px auto;
+    }
+    .menu_item:not(:last-child){
+        margin-right: 30%;
+    }
+}
+/*-----------ССЫЛКИ--------------------------------------------------------------------------------------------------------------*/
+.dz_links{
+    padding:0px 0px 10px 30px;
+}
+/*------------ТАБЛИЦА---------------------------------------------------------------------------------------------------------------------*/
+.table_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 116%;
+}
+.nechet{
+    background: #FFC0CB;
+}
+.table{
+    margin:0px 0px 10px 0px;
+}
+/*------------ФОРМА---------------------------------------------------------------------------------------------------------------------*/
+.form{
+    margin:0px 0px 10px 0px;  
+}
+/*------------ПОДВАЛ----------------------------------------------------------------------------------------------------------------------*/
+.footer{
+    height:20px;
+    background: #FFC0CB; 
+}
