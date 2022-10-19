@@ -4,8 +4,6 @@
 }
 body {
   background-image: url(img/kWhite-Background.jpg);
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 13s ease infinite;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -26,38 +24,6 @@ a:visited {
   text-decoration: none;
   color: #800080;
   border-bottom-color: rgba(128, 0, 128, 0.2);
-}
-@keyframes animated-bg {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 1000px;
-  }
-}
-
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 #logoleft {
@@ -147,7 +113,7 @@ tbody tr:nth-child(even) {
   background-color: greenyellow;
 }
 
-@media all and (min-device-width: 320px) {
+@media all and (max-device-width: 320px) {
   img {
     width: 100px;
   }
