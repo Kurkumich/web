@@ -23,16 +23,18 @@ header {
 }
 
 nav {
-    background: #E6E6FA;
+    background: #FFB6C1;
 }
-
+body {
+	background: #E6E6FA;
+}
 .nechet {
-    background: #D8E3AB;
+    	background: #FFB6C1;
 }
 
 .col-name {
     color: rgb(255, 255, 255);
-    background: rgb(139, 211, 211);
+    background: #4B0082;
 }
 
 .table {
@@ -40,5 +42,5 @@ nav {
 }
 
 .footer {
-    background: #E6E6FA;
+    background: #FFB6C1;
 }
