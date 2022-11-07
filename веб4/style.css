@@ -19,11 +19,11 @@ a:hover {
 
 header {
     word-wrap: break-word;
-    background: #D8E3AB;
+    background: #FFC0CB;
 }
 
 nav {
-    background: #D8E3AB;
+    background: #E6E6FA;
 }
 
 .nechet {
@@ -40,5 +40,5 @@ nav {
 }
 
 .footer {
-    background: #D8E3AB;
+    background: #E6E6FA;
 }
