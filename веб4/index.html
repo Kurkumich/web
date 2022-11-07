@@ -1,276 +1,294 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WEB3</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<html lang="en">
 
-  <body class="bg-ex-animation" id="maincs">
-    <header class="header">
-      <div class="content">
-        <div class="header_title">
-          <div id="logoleft"></div>
-          <div class="header_text">X-Files</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+
+            <div class="container">
+                <div class="header_container _container">
+                    <div class="row">
+                        <div class="col-2 col-sm-3 col-md-1 col-lg-1">
+                            <img src="logo.png" alt="logo">
+                        </div>
+                        <h1 class="col-10 col-sm-9 col-md-11 col-lg-11">
+                            НУМЕРОВАННЫЙ СПИСОК ССЫЛОК
+                        </h1>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="container">
+                <div class="nav_container _container">
+                    <ul class="nav-list">
+                        <div class="row px-3">
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#zad1" class="nav-link">ЗАДАНИЕ 1</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#form" class="nav-link">ФОРМА</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#table" class="nav-link">ТАБЛИЦА</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="dz_links">
+            <div class="container">
+                <div>
+                    <div>
+                        <div class="dz_links_container _container">
+                            <ol class="dz_list">
+                                <li id="zad1"><a href="http://vk.ru" class="dz_link">VK</a></li>
+                                <li><a href="https://www.youtube.com/" class="dz_link">YouTube</a></li>
+                                <li><a href="ftp://golosovanie.ru/hranilishe/spisok.txt" class="dz_link">Без
+                                        авторизации</a></li>
+                                <li><a href="ftp://user:password@sgolosovanie.ru/hranilishe/spisok.txt"
+                                        class="dz_link">С
+                                        авторизацией</a></li>
+                                <li><a href="https://shoolsite.com#bottom" class="dz_link">Ссылка на часть
+                                        страницы(якорь)</a></li>
+                                <li><a href="#top" class="dz_link">Ссылка на начало страницы</a></li>
+                                <li><a href="https://vk.com/im?peers=271622876&sel=339515568" class="dz_link">Ссылка с
+                                        двумя параметрами</a></li>
+                                <li><a href="#top" class="dz_link">Начало страницы</a> <a href="#bottom"
+                                        class="dz_link">Конец
+                                        страницы</a> <a href="#" class="dz_link">Главная</a></li>
+                                <li><a class="dz_link">Ссылка без href</a></li>
+                                <li><a href="" class="dz_link">Ссылка с пустым href</a></li>
+                                <li><a href="https://www.youtube.com/" rel="nofollow" class="dz_link">Ссылка ,
+                                        по
+                                        которой запрещен переход поисковикам</a></li>
+                                <li>
+                                    <!--noindex--><a href="https://www.youtube.com/" rel="noindex"
+                                        class="dz_link">Ссылка
+                                        ,запрещенная
+                                        для индексации поисковиками</a>
+                                    <!--/noindex-->
+                                </li>
+                                <li>
+                                    <h3>Пример абзаца для контекстной ссылки:</h3>
+                                    <br>
+                                    <p>
+                                        <a href="https://ru.wikipedia.org/wiki/Карл_III_(король_Великобритании)"
+                                            class="dz_link">Карл
+                                            III</a> (англ. Charles III, произношение: /tʃɑːlz/), полное имя Карл Фили́пп
+                                        Арту́р
+                                        Георг
+                                        (англ. Charles Philip Arthur George; род. 14 ноября 1948, Букингемский дворец,
+                                        Лондон) —
+                                        царствующий король Великобритании и Северной Ирландии и королевств Содружества
+                                        из
+                                        Виндзорской
+                                        династии, верховный главнокомандующий вооружёнными силами Великобритании,
+                                        верховный
+                                        правитель
+                                        Церкви Англии, глава Содружества наций с 8 сентября 2022 года. Действующий
+                                        монарх в
+                                        четырнадцати
+                                        независимых государствах: Австралии, Антигуа и Барбуде, Багамских Островах,
+                                        Белизе,
+                                        Гренаде,
+                                        Канаде, Новой Зеландии, Папуа — Новой Гвинее, Сент-Винсенте и Гренадинах,
+                                        Сент-Китсе и
+                                        Невисе,
+                                        Сент-Люсии, Соломоновых Островах, Тувалу и Ямайке.
+                                    </p>
+                                </li>
+                                <li><a
+                                        href="https://self-learning.ru/course/sql-basics?utm_source=infocomp&utm_medium=banner&utm_campaign=sqlbasics&utm_content=sidebar"><img
+                                            src="img.png" width="100" height="100" alt="flower"></a></li>
+                                <li>
+                                    <img src="image.jpg" width="400" height="250" usemap="#navigation" alt="map">
+                                    <map name="navigation">
+                                        <area shape="circle" coords="219,150,20"
+                                            href="https://rus.azattyq-ruhy.kz/cache/imagine/main_page_full/uploads/news/2021/07/14/60ef158393332631352460.jpg"
+                                            alt="circle">
+                                        <area shape="rect" coords="140,95,204,117"
+                                            href="https://s1.1zoom.ru/big3/489/354125-sepik.jpg" alt="rectangle">
+                                        <area shape="rect" coords="218,85,276,118"
+                                            href="https://bio-media.ru/upload/iblock/338/338e8aa053f8cf04a1d8b0030ecd10ce.jpg"
+                                            alt="rectangle">
+                                    </map>
+                                </li>
+                                <li><a href="demo.html" class="dz_link">Относительная ссылка на файл в том же
+                                        каталоге</a></li>
+                                <li><a href="about/content.html" class="dz_link">Относительная ссылка на файл в
+                                        каталоге about</a></li>
+                                <li><a href="../privet.html" class="dz_link">Относительная ссылка на файл в
+                                        каталоге, выше нынешнего на один</a></li>
+                                <li><a href="../../random.html" class="dz_link">Относительная ссылка на файл
+                                        двумя
+                                        каталогами выше</a></li>
+                                <li><a href="/" class="dz_link">Сокращенная ссылка на главную</a></li>
+                                <li><a href="form.html" class="dz_link">Сокращенная на внутреннюю</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-
-    <nav class="content">
-      <ul class="menu">
-        <li><a href="#task1">Задание 1</a></li>
-        <li><a href="#table">Таблица</a></li>
-        <li><a href="#forma">Форма</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="container_row">
-        <div class="content">
-          <div class="container_urls">
-            <h1 id="task1">Список гиперссылок</h1>
-            <ol>
-              <li><a href="http://example.com" id="#menu">ссылка 1</a></li>
-              <li><a href="https://example.com">ссылка 2</a></li>
-              <li>
-                <a
-                  href="ftp://public.ftp-servers.example.com/mydirectory/file.zip"
-                  >ссылка 3</a
-                >
-              </li>
-              <li>
-                <a
-                  href="ftp://user001:secretpassword@private.ftp-servers.example.com/mydirectory/file.zip"
-                  >ссылка 4</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://kozinalexandr.github.io/Yolo/#back"
-                  target="_blank"
-                  >ссылка 5</a
-                >
-              </li>
-              <li><a href="#“dolor”">ссылка 6</a></li>
-              <li>
-                <a
-                  href="https://www.example.com?key=Heroes_of_Might__Magic&version=delux"
-                  target="_blank"
-                  >ссылка 7</a
-                >
-              </li>
-              <li>
-                <a href="#task1" title="Первая часть задания"
-                  >Ссылка на начало</a
-                >
-              </li>
-              <li>
-                <a href="#forma" title="Вторая часть задания"
-                  >Ссылка на форму</a
-                >
-              </li>
-              <li><a>ссылка 9</a></li>
-              <li><a href="">ссылка 10</a></li>
-              <li><a href="http://example.com" rel="nofollow">ссылка 11</a></li>
-              <li><a href="http://example.com" rel="noindex">ссылка 12</a></li>
-              <li>
-                <p>
-                  Laugh Tale is the island at the end of the New World which
-                  supposedly holds the treasure
-                  <a href="https://onepiece.fandom.com/wiki/Laugh_Tale"
-                    >One Piece</a
-                  >.
-                </p>
-              </li>
-              <li>
-                <a href="http://example.com" target="_blank"
-                  ><img src="img/image.gif" alt="Example"
-                /></a>
-              </li>
-              <li>
-                <img
-                  src="img/image.gif"
-                  usemap="#figuri"
-                  alt="There are 2 selections of the picture area"
-                />
-                <map name="figuri">
-                  <area
-                    shape="rect"
-                    coords="0,0,110,80"
-                    href="http://yandex.ru"
-                    alt="Квадрат"
-                  />
-                  <area
-                    shape="circle"
-                    coords="150,110,50"
-                    href="http://google.com"
-                    alt="Круг"
-                  />
-                </map>
-              </li>
-              <li><a href="lap.html">ссылка 16</a></li>
-              <li><a href="about/about.html">ссылка 17</a></li>
-              <li><a href="../index.html">ссылка 18</a></li>
-              <li><a href="../../index.html">ссылка 19</a></li>
-              <li><a href="/">ссылка 20</a></li>
-              <li><a href="/about">ссылка 21</a></li>
-            </ol>
-            <p>
-              Sometime during the Void Century, Joy Boy left behind some sort of
-              great treasure on an island located at the very end of the Grand
-              Line. <a id="“dolor”">Gol D. Roger</a> and his crew are the only
-              other people known to have reached this island.
-            </p>
-          </div>
-
-          <div class="container_table">
-            <h1 id="table">Таблица</h1>
-            <table>
-              <tr>
-                <th>Колонка 1</th>
-                <th>Колонка 2</th>
-                <th>Колонка 3</th>
-              </tr>
-              <tr>
-                <td>Ячейка 11</td>
-                <td>Ячейка 12</td>
-                <td>Ячейка 13</td>
-              </tr>
-              <tr>
-                <td colspan="2">Ячейка 21 объединенная с 22</td>
-                <td rowspan="2">Ячейка 23 и 33</td>
-              </tr>
-              <tr>
-                <td>Ячейка 31</td>
-                <td>Ячейка 32</td>
-              </tr>
-              <tr>
-                <td>Ячейка 41</td>
-                <td>Ячейка 42</td>
-                <td>Ячейка 43</td>
-              </tr>
-              <tr>
-                <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="container_form">
-            <h1 id="forma">Форма</h1>
-            <form action="/" method="POST">
-              <label>
-                Имя<br />
-                <input name="field-name-1" value="Александр" /> </label
-              ><br />
-
-              <label>
-                email:<br />
-                <input
-                  name="field-email"
-                  value="test@example.com"
-                  type="email"
-                /> </label
-              ><br />
-
-              <label>
-                Дата рождения<br />
-                <input
-                  name="field-date"
-                  value="2021-09-08"
-                  type="date"
-                /> </label
-              ><br />
-
-              Пол:<br />
-              <label
-                ><input
-                  type="radio"
-                  checked="checked"
-                  name="radio-group-2"
-                  value="Значение1"
-                />
-                Мужской</label
-              ><br />
-              <label
-                ><input type="radio" name="radio-group-2" value="Значение2" />
-                Женский</label
-              ><br />
-
-              Количество конечностей:<br />
-              <label
-                ><input
-                  type="radio"
-                  checked="checked"
-                  name="radio-group-1"
-                  value="Значение1"
-                />
-                1</label
-              >
-              <label
-                ><input
-                  type="radio"
-                  checked="checked"
-                  name="radio-group-1"
-                  value="Значение2"
-                />
-                2</label
-              >
-              <label
-                ><input
-                  type="radio"
-                  checked="checked"
-                  name="radio-group-1"
-                  value="Значение3"
-                />
-                3</label
-              >
-              <label
-                ><input type="radio" name="radio-group-1" value="Значение4" />
-                4</label
-              ><br />
-
-              <label>
-                Сверхспособности:
-                <br />
-                <select name="field-name-4[]" multiple="multiple">
-                  <option value="Значение1">Бессмертие</option>
-                  <option value="Значение2" selected="selected">
-                    Левитация
-                  </option>
-                  <option value="Значение3" selected="selected">
-                    Прохождение сквозь стены
-                  </option>
-                </select> </label
-              ><br />
-
-              <label>
-                Биография:
-                <br />
-                <textarea
-                  name="field-name-2"
-                  style="margin: 0px; height: 35px; width: 187px"
-                >
-Напишите что-то о себе</textarea
-                ></label
-              ><br />
-
-              <label
-                ><input type="checkbox" checked="checked" name="check-1" /> с
-                контрактом ознакомлен (а)</label
-              ><br />
-              <input type="submit" value="Отправить" />
-            </form>
-          </div>
+        <div class="d-flex flex-column">
+            <div class="table order-2 order-md-1 order-lg-1" id="table">
+                <div class="container">
+                    <div>
+                        <div>
+                            <div class="table_container _container">
+                                <h1 class="table_title">Таблица</h1>
+                                <table border="1">
+                                    <tr>
+                                        <th class="col-name">Колонка 1</th>
+                                        <th class="col-name">Колонка 2</th>
+                                        <th class="col-name">Колонка 3</th>
+                                    </tr>
+                                    <tr class="nechet">
+                                        <td>Ячейка 11</td>
+                                        <td>Ячейка 12</td>
+                                        <td>Ячейка 13</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                                        <td rowspan="2">Ячейка 23 и 33</td>
+                                    </tr>
+                                    <tr class="nechet">
+                                        <td>Ячейка 31</td>
+                                        <td>Ячейка 32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ячейка 41</td>
+                                        <td>Ячейка 42</td>
+                                        <td>Ячейка 43</td>
+                                    </tr>
+                                    <tr class="nechet">
+                                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form order-1 order-md2 order-lg-2">
+                <div class="container">
+                    <div>
+                        <div>
+                            <div class="form_container _container">
+                                <div class="row px-4">
+                                    <form id="form" action="/" method="POST">
+                                        <div class="form-group">
+                                            <label>
+                                                Введите имя:
+                                            </label><br>
+                                            <input class="form-control" name="field-name-1" placeholder="Имя">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Введите email:
+                                            </label><br>
+                                            <input class="form-control" name="field-email"
+                                                placeholder="test@example.com" type="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Введите дату рождения:
+                                            </label><br>
+                                            <input class="form-control" name="field-date" value="2021-09-08"
+                                                type="date">
+                                        </div>
+                                        <div class="form-group">
+                                            Введите пол:<br>
+                                            <label><input type="radio" checked="checked" name="radio-group-2"
+                                                    value="Значение1">
+                                                Мужской</label><br>
+                                            <label>
+                                                <input type="radio" name="radio-group-2" value="Значение2">
+                                                Женский
+                                            </label><br>
+                                        </div>
+                                        <div class="form-group">
+                                            Выберите кол-во конечностей:<br>
+                                            <label><input type="radio" checked="checked" name="radio-group-1"
+                                                    value="Значение1">
+                                                1</label>
+                                            <label><input type="radio" checked="checked" name="radio-group-1"
+                                                    value="Значение2">
+                                                2</label>
+                                            <label><input type="radio" checked="checked" name="radio-group-1"
+                                                    value="Значение3">
+                                                3</label>
+                                            <label><input type="radio" name="radio-group-1" value="Значение4">
+                                                4</label>
+                                            <label><input type="radio" name="radio-group-1" value="Значениие 5">
+                                                Больше 4х</label><br>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Сверхспособности:
+                                                <br>
+                                                <select class="form-control" name="field-name-4[]" multiple="multiple">
+                                                    <option value="Значение1">Бессмертие</option>
+                                                    <option value="Значение2" selected="selected">Левитация</option>
+                                                    <option value="Значение3" selected="selected">Прохождение сквозь
+                                                        стены
+                                                    </option>
+                                                </select>
+                                            </label><br>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Биография:
+                                                <br>
+                                                <textarea class="form-control" name="field-name-2"
+                                                    style="margin: 0px; height: 35px; width: 187px;"
+                                                    placeholder="Напишите что-то о себе"></textarea>
+                                            </label><br>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><input type="checkbox" checked="checked" name="check-1">
+                                                с контрактом ознакомлен(а)</label><br>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" type="submit" value="Отправить">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_container _container">
+                    (c) Александр Дудченко 2022
+                </div>
+            </div>
+        </footer>
+</body>
 
-    <footer class="footer">
-      <div class="content">
-        <div class="footer_row">
-          <div class="footer_text">Вяткин Никита 2021</div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
