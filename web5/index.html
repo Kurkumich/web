@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Калькулятор </title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+        <script src="kalkulatir.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<div class="container-fluid page" style= "background-color: #4B0082;">
+				<div class="container">
+					<div class="row">
+						<div class=" col-2 offset-2 col-md-2 offset-md-2 order-2">
+						<div class="h-100 py-3">
+							<div id="line">
+								<p class="text-center">Калькулятор стоимости</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-1 col-md-3 order-1">
+						<div class="h-100 py-3">
+							<div id="logo">
+								<img src="https://clipart-db.ru/file_content/rastr/rastr_animal_013.png" Width="150" Height="100" alt="name"/>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+        <div class="container">
+        <div class=" row mt-3 order-2 order-md-3" >
+            <div class="col-12 col-md-6">
+                    Введите стоимость товара:
+                    <p><input name="num1" type="text" placeholder="Введите..."></p>
+                    Введите кол-во товара:
+                    <p><input name="num2" type="text" placeholder="Введите..."></p>
+                    <button id="my-button">Рассчитать</button>
+                    <p id="answer"></p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="container-fluid page mt-3" style="background-color: #4B0082;">
+            <footer class="footer" id="foot">
+                <h5> © Кузнецов Игорь 2022 </h5>
+            </footer>
+        </div>
+        </body>
+    </html>
